@@ -1,0 +1,84 @@
+/* todo.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #addbtn {
+    padding: 10px 15px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #addbtn:hover {
+    background-color: darkorange;
+  }
+  
+  .container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li.para {
+    list-style: none;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  #delbtn {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #delbtn:hover {
+    background-color: darkred;
+  }
+  

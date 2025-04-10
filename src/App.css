@@ -1,0 +1,25 @@
+.box{
+    position: relative;
+    left: 400px;
+    
+}
+
+.container{
+    border: 1px solid #000;
+    padding: 10px;
+    background: rgb(241, 234, 234);
+    text-align: center;
+}
+
+#red{
+    background: red;
+}
+#green{
+    background: green;
+}
+#yellow{
+    background: yellow;
+}
+#blue{
+    background: blue;
+}
