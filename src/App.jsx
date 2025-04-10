@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Ludo from './Ludo'
+import React from 'react'
+
 import Todo from './todo'
 import "./App.css"
 function App() {
